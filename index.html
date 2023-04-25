@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styli.css">
+</head>
+<body>
+   <header>
+    <img class="logo" src="Logo.svg">
+   </header>
+   <main>
+        <section class="seccion1">
+            <div class="contenedorTexto">
+                <textarea placeholder="Ingrese texto Aqui" class="text-area"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="alerta.svg" alt="alerta">
+                <p>solo letras minusculas sin acentos</p>
+            </div>
+            <div class="contenedorBotones">
+                <button onclick="btnEncriptar()", class="boton-encriptar">Encriptar</button>
+                <button onclick="btnDesencriptar()", class="boton-desencriptar">Desencriptar</button>
+            </div>       
+        </section>
+        <section class="seccion2">
+            <div>
+                <img class="contenedro-munheco" src="munheca2123.png" alt="munheca">
+            </div>
+            <div class="contenedor-parrafo">
+                <h3 class="titulo3">Ningun mensaje fue <br>Encontrado</h3>
+                <p class="parrafo">Ingrese el texto que decea encriptar o <br>desencriptar</p>
+            </div>
+            <div class="contenedor-copia">
+                <button onclick="btnCopiar()", class="btnCopiar">Copiar</button>
+            </div>
+            <div class="contenedor-resultado">
+                <textarea class="mensaje" cols="30" rows="10"></textarea>
+            </div>
+        </section>
+        
+   </main>
+    <script src="scrip.js"></script>
+    <div class="rodapie">
+        <h4>Hecho por Jesus Alexander </h4>
+    </div>
+</body>
+   
+</html>
